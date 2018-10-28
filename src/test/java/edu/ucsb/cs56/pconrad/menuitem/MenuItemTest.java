@@ -47,7 +47,7 @@ public class MenuItemTest {
         assertEquals("Small Poke Bowl,1049,Poke Bowls",smallPokeBowl.toString());
     }
     public void test_getPriceInCents(){
-	assertEquals("1049",smallPokeBowl.getPriceInCents(1049));
+	assertEquals("1049",smallPokeBowl.getPriceInCents());
     }
     public void test_getCategory(){
 	assertEquals("Poke Bowls",smallPokeBowl.getCategory());
